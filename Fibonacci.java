@@ -4,7 +4,7 @@ public class Fibonacci {
     int second=1;
     int third=1;
     int count=1;
-    int seed=100;
+    int seed=10;
   
     for (count= 1;count<seed;++count)
     {
