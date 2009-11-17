@@ -70,7 +70,7 @@ public class Credit {
   creditStatusString= "Good Credit Rating Cool ";
   
   if (newBalance > creditLimit) {
-    creditStatusString = "Bad Credit Rating";
+    creditStatusString = "Appalling Credit Rating";
   }
   else
   {
