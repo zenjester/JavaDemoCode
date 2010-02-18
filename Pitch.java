@@ -2,7 +2,7 @@ import java.io.*;
 
 public class Pitch implements Serializable
 {
-	int pitchNumber;
+	int pitchNumber;g 
 	String pitchType;
 	String pitchName;
 	
