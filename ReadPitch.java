@@ -1,3 +1,4 @@
+
 import java.io.*;
 
 public class ReadPitch
@@ -7,6 +8,7 @@ public class ReadPitch
 		try 
 		{
 			ObjectInputStream ois = new ObjectInputStream (new FileInputStream("Pitches.txt"));
+			
 			Pitch one = (Pitch) ois.readObject();
 			Pitch two = (Pitch) ois.readObject();
 			
